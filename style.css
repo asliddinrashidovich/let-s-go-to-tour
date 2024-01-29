@@ -7,13 +7,6 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
-h6 {
-    color: #2d845b;
-    color: #292f2e;
-    color: #e9ebe9;
-    color: #acaba8;
-    color: #0d1d17; hover
-}
 .container {
     width: 80%;
     margin: 0 auto;
@@ -506,9 +499,9 @@ main .container .shopbox img {
 }
 /* footer */
 footer {
-    background-image: url(/images/footer.jpg);
+    background-image: url(/images/back2.jpg);
     background-size: cover;
-    background-position: bottom;
+    background-position: center top;
     background-color: #111816;
     color: #fff;
     background-position: fixed;
@@ -527,13 +520,15 @@ footer .footerbox {
 }
 footer .footerbox ul li {
     list-style-type: none;
-    font-size: 10px;
+    font-size: 8px;
     padding: 5px 0;
     transition: all 0.3s ease;
 }
 footer .footerbox ul li:hover {
     color: #2d845b;
     cursor: pointer;
+    margin-left: 7px;
+
 }
 footer .footerbox h5 {
     color: #fff;
