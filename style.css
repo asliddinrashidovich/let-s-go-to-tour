@@ -1,0 +1,551 @@
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h6 {
+    color: #2d845b;
+    color: #292f2e;
+    color: #e9ebe9;
+    color: #acaba8;
+    color: #0d1d17; hover
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+h1, h2, h3, h4, h5 ,h6 {
+    text-transform: capitalize;
+    color: #292f2e;
+}
+header {
+
+
+}
+#hed {
+    background-image: url(/images/header4.webp);
+    background-size: cover;
+    background-position-x: 180%;
+    width: 100%;
+    height: 300px;
+}
+header .nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: ;
+}
+header .nav #greenicon {
+    color: #2d845b;
+}
+header .nav h2 {
+    font-size: 20px;
+    margin-left: 3px;
+}
+.pages ul {
+    display: inline;
+
+}
+.pages {
+    margin-left: 130px;
+}
+
+.pages ul li {
+    float: left;
+    list-style-type: none;
+
+}
+.pages ul li a:hover {
+    color: #2d845b;
+    border-bottom: 1px solid #2d845b;
+}
+.pages ul li a{
+    text-decoration: none;
+    color: #292f2e;
+    margin: 0 5px;
+    font-size: 10px;
+}
+.brand {
+    cursor: pointer;
+}
+.pages .pageicon {
+    float: right;
+
+}
+.pages .pageicon i {
+    margin: 3px;
+    font-size: 10px;
+    color: #acaba8;
+    cursor: pointer;
+}
+.pages .pageicon i:hover {
+    color: #2d845b;
+}
+header .header {
+    position: relative;
+    top: 50px;
+
+    width: 300px;
+    height: 400px;
+}
+header .header p {
+    line-height: 1.8;
+    margin: 15px 0;
+    font-size: 8px;
+}
+header .header h2 {
+    margin: 5px 0;
+}
+.green {
+    color: #2d845b;
+}
+header .header {
+    font-size: smaller;
+}
+.btn {
+    padding: 5px 10px;
+    background: none;
+    border: 1.5px solid #0d1d17;
+    font-size: 10px;
+    transition: all 0.3s ease;
+}
+.btn:hover {
+    background-color: #0d1d17;
+    color: #fff;
+    cursor: pointer;
+}
+section .adventure {
+
+}
+section .adventure  h2 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+section .adbox {
+    display: flex;
+    justify-content: space-around;
+
+}
+section .adbox img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+section .adbox h5 {
+    color: #2d845b;
+}
+section .adbox p {
+    font-size: 10px;
+    margin: 10px 0;
+    line-height: 1.5;
+}
+section .adbox .adboxs {
+    text-align: center;
+}
+.about {
+    background-color: #e9ebe9 ;
+
+}
+.about .container {
+    display: flex;
+    justify-content: center;
+
+}
+.about .aboutimg img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: right ;
+    box-shadow: 20px 20px #acaba8;
+    margin: 30px 0;
+}
+.about .aboutcontent {
+    width: 50%;
+    padding: 0 10px;
+    margin: 25px 30px;
+}
+.about .aboutcontent p  {
+    font-size: 10px;
+    margin: 10px 0;
+    line-height: 1.6;
+}
+main .container h2 {
+    text-align: center;
+    margin: 20px ;
+}
+main .container .shopbox{
+    display: flex;
+    justify-content: space-around;
+}
+main .container .shopbox .products {
+    width: 120px;
+    height: 180px;
+    border: 2px solid #292f2e;
+    text-align: center;
+    font-weight: 800;
+    margin-right: 10px;
+    font-size: 10px;
+}
+main .container .shopbox img {
+    width: 100%;
+    object-fit: contain;
+    height: 100px;
+}
+.container .shopbox .products ul {
+    display: flex;
+    justify-content: center;
+}
+.container .shopbox .products ul li {
+    list-style-type: none;
+    float: left;
+}
+.container .shopbox .products .shopicons i{
+    color: #fff;
+    background-color: #0d1d17;
+    width: 30px;
+    height: 20px;
+    align-items: center;
+    padding: 5px;
+    margin-top: 5px;
+    transition: all 0.5s ease;
+}
+.container .shopbox .products .shopicons i:hover {
+    background-color: #acaba8;
+    color: #0d1d17;
+
+}
+.button button {
+    width: 120px;
+    background-color: #292f2e;
+    border: 2px solid #0d1d17;
+    color: #fff;
+    position: relative;
+    left: -2px;
+    top: 2px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.button button:hover {
+    background-color: white;
+    color: #0d1d17;
+}
+.button button i {
+    color: yellow;
+    margin: 5px;
+}
+.packages {
+    background-color: #e9ebe9;
+}
+.packages h2 {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.packages .container .packcontainer {
+    display: flex;
+    justify-content: space-around;
+}
+.packages .packcontainer .packbox  .packimg img{
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+}
+.packages .container .packcontainer .packbox {
+    border: 1px solid #0d1d17;
+    width: 170px;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    font-size: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+.packages .container .packcontainer .packbox:hover {
+    background: #0d1d17;
+    cursor: pointer;
+    color: #fff;
+}
+.packages .container .packcontainer .packbox .btnn {
+    border: 1px solid #0d1d17;
+    padding: 5px 10px;
+    font-size: smaller;
+
+}
+.packages .container .packcontainer .packbox .btnn:hover {
+    background-color: #acaba8;
+    cursor: pointer;
+}
+.packages .container .packcontainer .packbox p {
+    line-height: 1.5;
+    font-size: 7px;
+    margin: 5px;
+}
+.packages .container .packcontainer .packbox h4 {
+    margin: 3px;
+}
+.packcontainer .packbox .green {
+    display: block;
+    margin-bottom: 5px;
+}
+.reviews {
+
+}
+.reviews h2 {
+    text-align: center;
+    padding: 10px;
+}
+.reviews  .revcon {
+    display: flex;
+
+}
+.reviews  .revcon .revbox {
+    font-style: italic;
+    font-size: 10px;
+    width: 200px;
+    margin: 0 5px;
+}
+.reviews  .revcon .revbox p {
+    background-color: #e9ebe9;
+    padding: 10px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.reviews  .revcon .revbox .revimg img {
+    width: 50px;
+    height: 50px;
+    object-position: top;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 5px 0;
+}
+.reviews  .revcon .revbox .revimg {
+    display: flex;
+}
+.reviews  .revcon .revbox .revimg .person {
+    padding: ;
+    margin: 15px 10px;
+    font-size: 10px;
+    font-style: normal;
+}
+.reviews2 h2 {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    ;
+}
+.reviews2  {
+    margin-top: 10px;
+    background-color: #e9ebe9;
+}
+.reviews2  .users .userimg img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top bottom;
+}
+.reviews2  .users {
+    display: flex;
+    padding: 20px;
+}
+.reviews2  .users p {
+    font-size: 10px;
+}
+.telegram {
+    color: #fff;
+    width: 80%;
+    border-radius: 30px;
+    margin: 0 auto;
+    background-color: #0d1d17;
+}
+.reviews2  .users .content {
+    padding: 0 10px;
+}
+.reviews2  .users .content h5 {
+    color: #e9ebe9;
+}
+.offer h2 {
+    text-align: center;
+    margin: 10px;
+}
+.offercon {
+    display: flex;
+    justify-content: center;
+}
+.offercon .offerbox {
+    border: 1px solid #0d1d17;
+    text-align: center;
+    width: 180px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 4px;
+    border-radius: 3px;
+
+}
+.offercon .offerbox:hover {
+    background-color: #0d1d17;
+    color: #fff;
+    cursor: pointer;
+}
+.offercon .offerbox i {
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    padding: 40px;
+
+}
+.offercon .offerbox h5 {
+    font-size: 12px;
+}
+.offer .offercon {
+    font-size: 10px;
+}
+.offer .offercon  .btn {
+    font-size: 10px;
+    margin-top: 10px;
+    background-color: #fff;
+}
+.offer .offercon  .btn:hover {
+    color: #0d1d17;
+    width: 100px;
+}
+.blogs h2 {
+    text-align: center;
+    padding: 10px;
+
+}
+.blogs .blogcon {
+    display: flex;
+    justify-content: space-around;
+
+}
+.blogs .blogcon .blogbox img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+.blogs .blogcon .blogbox .blogday {
+    background-color: #0d1d17;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    width: 120px;
+    padding: 5px;
+    font-size: 8px;
+    position: relative;
+    border-radius: 3px;
+    top: -15px;
+    left: 15px;
+}
+.blogs .blogcon .blogbox .blogday i {
+    color: #2d845b;
+}
+.blogs .blogcon .blogbox .blogday .left {
+    margin-left: 10px;
+}
+.blogs .blogcon .blogbox {
+    font-size: 10px;
+    text-align: center;
+    width: 150px;
+
+}
+.blogs .blogcon .blogbox .btn {
+    margin-top: 10px;
+}
+.subscribe {
+    background-color: #e9ebe9;
+    font-size: 10px;
+    text-align: center;
+    margin: 20px 0;
+}
+.subscribe p {
+
+
+}
+.subscribe h2 {
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}
+.subscribe input {
+    width: 300px;
+    border-radius: 20px;
+    margin: 20px ;
+    padding: 10px;
+    font-size: smaller;
+    border: 1px solid #0d1d17;
+}
+.subscribe .submit {
+    background-color: #0d1d17;
+    color: #fff;
+    border: none;
+    padding: 4px 20px;
+    border-radius: 20px;
+    position: relative;
+    top: -51px;
+    left: 103px;
+}
+.subscribe .submit:hover {
+    cursor: pointer;
+    color: #0d1d17;
+    background-color: #acaba8;
+
+}
+.companys img {
+    width: 100px;
+    object-fit: contain;
+}
+.companys {
+    display: flex;
+    justify-content: center;
+}
+/* footer */
+footer {
+    background-image: url(/images/footer.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-color: #111816;
+    color: #fff;
+    background-position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+}
+footer .rowfooter {
+    display: flex;
+
+}
+footer .footerbox {
+    width: 200px;
+
+}
+footer .footerbox ul li {
+    list-style-type: none;
+    font-size: 10px;
+    padding: 5px 0;
+    transition: all 0.3s ease;
+}
+footer .footerbox ul li:hover {
+    color: #2d845b;
+    cursor: pointer;
+}
+footer .footerbox h5 {
+    color: #fff;
+    margin: 30px 0 15px 0;
+}
+.footernom {
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    padding: 20px;
+}
+.active {
+    color: #2d845b;
+    border-bottom: 1px solid #2d845b;
+}
