@@ -1,4 +1,6 @@
-
+body {
+    zoom: 200%;
+}
 * {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -35,7 +37,6 @@ header .nav {
     display: flex;
     align-items: center;
     width: 100%;
-    margin-top: ;
 }
 header .nav #greenicon {
     color: #2d845b;
@@ -325,8 +326,7 @@ main .container .shopbox img {
 .reviews  .revcon .revbox .revimg {
     display: flex;
 }
-.reviews  .revcon .revbox .revimg .person {
-    padding: ;
+.reviews  .revcon .revbox .revimg .person  {
     margin: 15px 10px;
     font-size: 10px;
     font-style: normal;
